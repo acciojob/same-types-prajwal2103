@@ -1,6 +1,10 @@
 function isSameType(value1, value2) {
- if(typeof value2=== typeof value1) return true;
-  else return false;
+ if(typeof value2=== typeof value1){
+	  return true;
+ }
+  else{
+	  return false
+  }
 }
 
 // do not change the code below.
